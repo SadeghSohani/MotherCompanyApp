@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/chickenItem"
+    android:clickable="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_chickenID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHICKEN ID :\n"
+                android:textSize="13sp"
+                android:textColor="#000000"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_motherCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MOTHER COMPANY :\n"
+                android:textSize="13sp"
+                android:textColor="#000000"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_chickenFarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHICKEN FARM :\n"
+                android:textSize="13sp"
+                android:textColor="#000000"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="5dp"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_feedingCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FEEDING COMPANY :\n"
+                android:textSize="13sp"
+                android:textColor="#000000"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_slaughterHouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SLAUGHTERHOUSE :\n"
+                android:textSize="13sp"
+                android:textColor="#000000"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OWNER :\n"
+                android:textSize="13sp"
+                android:textColor="#000000"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="5dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
